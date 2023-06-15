@@ -1,0 +1,19 @@
+texto responsivo
+
+min-width - largura minima
+
+max-width - largura maxima 
+
+width: 100% - ajuta o conteudo automaticamente 
+
+margin auto - move automaticamente o img
+
+picture - tag 
+
+source - colocar a largura maxima + a imagem quebrada
+
+img
+
+picture - tag
+
+ajustar video - https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-17-aula-12-tornando-um-video-responsivo/

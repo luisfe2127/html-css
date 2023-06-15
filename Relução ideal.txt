@@ -1,0 +1,12 @@
+Relução ideal
+
+Pequena:
+Largura:300 Altura:300 Resolução: x=80000 y=80000
+
+Media:
+Largura:700 Altura:700 Resolução: x=80000 y=80000
+
+Grande:
+Largura:1000 Altura:1000 Resolução: x=80000 y=80000
+
+

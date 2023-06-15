@@ -1,0 +1,13 @@
+semanticas
+
+header - bloco para titulo e subtitulo
+
+nav - menus
+
+main - conteudo principal
+
+article - subtitulo
+
+footer - rodape
+
+aside - curiosidades, algo que nao esta relacionado 100% com o main

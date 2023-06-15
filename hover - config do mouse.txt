@@ -1,0 +1,11 @@
+hover - config do mouse
+
+modificar o paragrafo quando a mouse passar por cima; dps disso configurar normalmente 
+
+nav > a {
+
+borda
+borda radius
+color 
+transition
+}
