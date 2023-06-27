@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+background-image: url('imagens/tumblr_a7d538e0f89485ec894783c7cbbdef31_e81252e4_1280.png');
+background-position: center center;
+background-repeat: repeat-y;
+background-size:cover;
+background-attachment: fixed;
+margin: auto;
+width: 100%;
+}
+
+nav {
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 70px;
+    background-color: white;
+}
+
+.Inicio {
+    word-spacing: 0px;
+    transition: color 1s;
+}
+
+.Inicio:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.Oqueé {
+    word-spacing: 0px;
+    transition: color 1s;
+}
+
+.Oqueé:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.Cap1 {
+    word-spacing: 0px;
+    transition: color 1s;
+
+}
+
+.Cap1:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.Cap2 {
+    word-spacing: 0px;
+    transition: color 1s;
+
+}
+
+.Cap2:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.Teorias {
+    word-spacing: 0px;
+    transition: color 1s;
+}
+
+.Teorias:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.OndeJogar {
+    word-spacing: 0px;
+    transition: color 1s;
+}
+
+.OndeJogar:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.contact {
+    word-spacing: 0px;
+    transition: color 1s;
+}
+
+.contact:hover {
+    color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.titulo01 {
+    font-size: 50px;
+    text-align:left;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+article {
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px;
+    font-size: 19px;
+    background-color: hsla(0, 0%, 100%, 0.87);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+aside {
+    border: solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+box-shadow: 900px black;
+}
+
+.gaster {
+position: absolute;   
+padding-left: 720px;
+top: 184vh;
+}
+
+a {
+    color: black;
+}
+
+aside {
+    margin-top: 50px;
+}
