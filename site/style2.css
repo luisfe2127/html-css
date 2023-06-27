@@ -4,8 +4,11 @@ body {
     height: 100vh;
 background-image: url('imagens/tumblr_a7d538e0f89485ec894783c7cbbdef31_e81252e4_1280.png');
 background-position: center center;
-background-repeat: no-repeat;
+background-repeat: repeat-y;
 background-size:cover;
+background-attachment: fixed;
+margin: auto;
+width: 100%;
 }
 
 nav {
@@ -152,9 +155,9 @@ box-shadow: 900px black;
 }
 
 .gaster {
-    padding-inline: 690px;
-    position: absolute;
-    top: 1220px;
+position: absolute;   
+padding-left: 720px;
+top: 184vh;
 }
 
 a {
