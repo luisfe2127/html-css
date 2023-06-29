@@ -15,7 +15,7 @@
  header {
     background-color: black;
     padding: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
  }
 
  header h1 {
@@ -60,10 +60,61 @@
     border-radius: 10px;
  }
 
- main {
-   font-family: Arial, Helvetica, sans-serif;
-   padding-left: 5vh;
-   padding-right: 5vh;
+ aside {
+   margin-left: 40px;
+   margin-right: 10px;
+ }
+
+ img {
+   margin-bottom: 50px;
+ }
+
+ .imgsans {
+   width: 400px;
+   height: 330px;
+   margin-right: 30px;
+   transition: 0.5s;
+ }
+
+ .imgsans:hover {
+   width: 420px;
+   height: 350px;
+ }
+
+ .imgfrisk {
+   width: 400px;
+   height: 330px;
+   margin-right: 30px;
+   transition: 0.5s;
+ }
+
+ .imgfrisk:hover {
+   width: 420px;
+   height: 350px;
+ }
+
+ .imgtoriel {
+   width: 400px;
+   height: 330px;
+   transition: 0.5s;
+ }
+
+ .imgtoriel:hover {
+   width: 430px;
+   height: 350px;
+ }
+
+ @font-face {
+   font-family: 'pixel';
+   src: url('../undertale/fontes/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf') format('truetype');
+   font-style: normal;
+   font-weight: normal;
+ }
+
+ main h1{
+   font-family: 'pixel';
+   padding-left: 10px;
+   padding-right: 10px;
    margin: 0px 70px;
  }
 
@@ -76,35 +127,7 @@
  main p {
    font-size: 20px;
    margin-bottom: 50px;
-   line-height: 1.5em;
+   margin-left: 80px;
    word-spacing: 1px;
    letter-spacing: 0.5px;
  }
-
- aside {
-   margin-left: 7vh;
- }
-
- .imagemsans {
-   width: 650px;
-   height: 310px;
-   margin-right: 150px;
- }
-
- .imagemfrisk {
-   width: 450px; 
-   height: 210px;
- }
-
-
-
- 
-
- 
-
-
- 
-
- 
-
-

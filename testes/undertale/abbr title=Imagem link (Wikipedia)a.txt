@@ -1,0 +1,22 @@
+<abbr title="Imagem link (Wikipedia)"><a href="https://en.wikipedia.org/wiki/Sans_%28Undertale%29" target="_blank"><img src="imagens/Sans_undertale_resized.jpg" alt="Sans" class="imagemsans"></a></abbr>
+
+            <abbr title="Imagem link (Amino)"><a href="https://aminoapps.com/c/undertale-brasil/page/item/frisk/mZ8Y_QlU0IeWXvdWjv04MdxoEE6jLKodDv" target="_blank"><img src="imagens/04361a1f97022eea766466a6de1e0c8ed5b0adc5r1-2048-2048v2_hq.jpg"  alt="Frisk" class="imagemfrisk"></a></abbr>
+
+            <abbr title="Imagem link (Wikia Undertale)"><a href="https://undertale-determination.fandom.com/pt-br/wiki/Toriel" target="_blank"><img src="imagens/Mamaecabra.webp" alt="Toriel" class="imagemtoriel"></a></abbr>
+
+.imagemsans {
+   width: 620px;
+   height: 310px;
+   margin-right: 150px;
+ }
+
+ .imagemfrisk {
+   width: 400px; 
+   height: 210px;
+ }
+
+ .imagemtoriel {
+   width: 400px; 
+   height: 210px;
+   
+ }
