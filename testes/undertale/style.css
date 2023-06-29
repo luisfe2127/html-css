@@ -81,6 +81,21 @@
    letter-spacing: 0.5px;
  }
 
+ aside {
+   margin-left: 7vh;
+ }
+
+ .imagemsans {
+   width: 650px;
+   height: 310px;
+   margin-right: 150px;
+ }
+
+ .imagemfrisk {
+   width: 450px; 
+   height: 210px;
+ }
+
 
 
  

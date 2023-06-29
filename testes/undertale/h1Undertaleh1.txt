@@ -1,0 +1,24 @@
+<h1>Undertale</h1>
+
+            <article>
+                <p>
+                    Undertale é um jogo RPG elêtronico lançado no dia 15 de setembro de 2015, pelo desenvolvedor chamado Toby Fox que é também responsável pelo game Deltarune.
+                </p>
+            </article>
+
+            <h1>A fama</h1>
+
+            <article>
+                <p>
+                    Undertale ficou e continua em alta até hoje por conter uma história, trilha sonóra, desevolvimentos, gráficos, jogabilidade surpreendente.<br>
+                    Além disso tudo, Undertale guarda vários segredos, assim, deixando a comunidade curiosa, e por conta disso, surge vários canais e comunidades de teorias.
+                </p>
+            </article>
+            
+            <h1>Enredo</h1>
+
+            <article>
+                <p>
+                    Undertale inicia contando sobre o passado, no qual monstros e humanos viviam no planeta. Após uma guerra, os monstros foram derrotados e selados embaixo de uma montanha. O jogo, então, volta para o presente e passa a focar na história de uma criança que caiu dentro da montanha onde os monstros agora vivem.
+                </p>
+            </article>
