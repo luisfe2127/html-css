@@ -33,6 +33,7 @@
    background-color: transparent;
    color: white;
  }
+
  header h1:hover {
     font-size: 100px;
  }
@@ -120,12 +121,21 @@
    margin-bottom: 50px;
  }
  
- main p {
+ article p {
+   font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
    margin-bottom: 50px;
    margin-left: 80px;
    word-spacing: 1px;
    letter-spacing: 0.5px;
    margin-right: 140px;
-   font-size: ;
+ }
+
+ ul {
+   font-size: 20px;
+   margin-bottom: 50px;
+   margin-left: 80px;
+   word-spacing: 1px;
+   letter-spacing: 0.5px;
+   margin-right: 140px;
  }
