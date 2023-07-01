@@ -114,25 +114,35 @@
    font-weight: normal;
  }
 
- aside {
-  background-image: url('imagens/wp1810177_resized.png');
- }
-
- section {
-  background-color: rgba(0, 0, 0, 0.356);
+ section.imagem {
+  background-color: rgba(15, 15, 15, 0.733);
   color: white;
+  padding-bottom: 3px;
  }
 
- aside h1 {
+ #img01 {
+ background-image: url('../undertale/imagens/wp1810177_resized.png');
+ }
+
+ section.imagem > ul {
+  background-color: rgba(24, 24, 24, 0.589);
+  width: 63em;
+  text-align: center;
+  padding-bottom: 20px;
+ }
+
+ section h1 {
   /*font-family: 'pixel',Arial, Helvetica, sans-serif;*/
   font-size: 50px;
   padding-left: 55px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  text-align: center;
  }
 
- aside h2 {
-  padding-left: 55px;
+ section h2 {
+  padding-left: 0px;
   font-size: 39px;
+  text-align: center;
  }
 
  ul {
