@@ -114,22 +114,28 @@
    font-weight: normal;
  }
 
+ /*-----------BackGroud Section-----------*/
+
+ #img01 {
+ background-image: url('../undertale/imagens/wp1810177_resized.png');
+ }
+
+ /*-----------BackGround Topicos-----------*/
+
  section.imagem {
   background-color: rgba(15, 15, 15, 0.733);
   color: white;
   padding-bottom: 3px;
  }
 
- #img01 {
- background-image: url('../undertale/imagens/wp1810177_resized.png');
- }
-
  section.imagem > ul {
   background-color: rgba(24, 24, 24, 0.589);
-  width: 63em;
+  width: 92.9vw;
   text-align: center;
   padding-bottom: 20px;
  }
+
+ /*-----------Estilo Topicos-----------*/
 
  section h1 {
   /*font-family: 'pixel',Arial, Helvetica, sans-serif;*/
