@@ -126,10 +126,11 @@
   background-color: rgba(15, 15, 15, 0.733);
   color: white;
   padding-bottom: 3px;
+  margin-bottom: 100px;
  }
 
  section.imagem > ul {
-  background-color: rgba(24, 24, 24, 0.589);
+ background-color: rgba(24, 24, 24, 0.589);
   width: 92.9vw;
   text-align: center;
   padding-bottom: 20px;
@@ -138,7 +139,7 @@
  /*-----------Estilo Topicos-----------*/
 
  section h1 {
-  /*font-family: 'pixel',Arial, Helvetica, sans-serif;*/
+  font-family: 'pixel',Arial, Helvetica, sans-serif;
   font-size: 50px;
   padding-left: 55px;
   margin-bottom: 50px;
@@ -160,6 +161,10 @@
   margin-right: 140px;
 }
 
+main {
+  
+}
+
  main h1{
    font-family: 'pixel';
    padding-left: 10px;
@@ -177,4 +182,5 @@
    word-spacing: 1px;
    letter-spacing: 0.5px;
    margin-right: 140px;
+   line-height: 1.2em;
  }
