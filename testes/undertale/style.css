@@ -117,7 +117,7 @@
  /*-----------BackGroud Section-----------*/
 
  #img01 {
- background-image: url('../undertale/imagens/wp1810177_resized.png');
+ /*background-image: url('../undertale/imagens/wp1810177_resized.png');*/
  }
 
  /*-----------BackGround Topicos-----------*/
@@ -126,14 +126,17 @@
   background-color: rgba(15, 15, 15, 0.733);
   color: white;
   padding-bottom: 3px;
-  margin-bottom: 100px;
+  margin-bottom: 100px; 
+  margin-right: 30px;
+  margin-left: 30px;
  }
 
- section.imagem > ul {
+ .imagem > ul {
  background-color: rgba(24, 24, 24, 0.589);
-  width: 92.9vw;
+  width: 88.5vw;
   text-align: center;
   padding-bottom: 20px;
+
  }
 
  /*-----------Estilo Topicos-----------*/
