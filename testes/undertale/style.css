@@ -168,12 +168,16 @@
   margin-right: 140px;
  }
 
+ /*#img02 {
+ background-image: url('../undertale/imagens/artworks-1kvlhSATBt57kdXq-Vo45Ig-t500x500_resized.jpg');
+ }
+
  /*------------Conteudo------------*/
 
  main {
   margin-left: 138px;
   margin-right: 60px;
-  background-color: rgba(128, 128, 128, 0.151);
+  background-color: rgba(46, 46, 46, 0.493);
  }
 
  main h1{
@@ -195,4 +199,7 @@
    letter-spacing: 1.3px;
    margin-right: 140px;
    line-height: 1.4em;
+ }
+
+ h3 {
  }
