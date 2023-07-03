@@ -107,17 +107,22 @@
    height: 350px;
  }
 
- @font-face {
+ /*@font-face {
    font-family: 'pixel';
    src: url('../undertale/fontes/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf') format('truetype');
    font-style: normal;
    font-weight: normal;
+ }*/
+
+ @font-face {
+  font-family: 'pixel';
+  src: url('../undertale/fontes/upheaval/upheavtt.ttf') format('truetype');
  }
 
  /*-----------BackGroud Section-----------*/
 
  #img01 {
- /*background-image: url('../undertale/imagens/wp1810177_resized.png');*/
+ background-image: url('../undertale/imagens/wp1810177_resized_compressed.png');
  }
 
  /*-----------BackGround Topicos-----------*/
@@ -133,10 +138,9 @@
 
  .imagem > ul {
  background-color: rgba(24, 24, 24, 0.589);
-  width: 88.5vw;
   text-align: center;
-  padding-bottom: 20px;
-
+  padding-bottom: 57px;
+  margin-right: 0px;
  }
 
  /*-----------Estilo Topicos-----------*/
@@ -162,11 +166,15 @@
   word-spacing: 1px;
   letter-spacing: 0.5px;
   margin-right: 140px;
-}
+ }
 
-main {
-  
-}
+ /*------------Conteudo------------*/
+
+ main {
+  margin-left: 138px;
+  margin-right: 60px;
+  background-color: rgba(128, 128, 128, 0.151);
+ }
 
  main h1{
    font-family: 'pixel';
@@ -175,6 +183,7 @@ main {
    margin: 0px 70px;
    font-size: 60px;
    margin-bottom: 50px;
+   letter-spacing: 4px;
  }
  
  article p {
@@ -183,7 +192,7 @@ main {
    margin-bottom: 50px;
    margin-left: 80px;
    word-spacing: 1px;
-   letter-spacing: 0.5px;
+   letter-spacing: 1.3px;
    margin-right: 140px;
-   line-height: 1.2em;
+   line-height: 1.4em;
  }
