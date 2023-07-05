@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Monster Friend Fore' ;
+    src: url('../undertale/fontes/monster_friend_fore/MonsterFriendFore.otf') format('opentype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----------Cabeçalho-----------*/
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    font-family: 'Monster Friend Fore';
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    /*transition: 1s;*/
+ }
+
+ /*header h1:hover {
+    font-size: 100px;
+ }*/
+
+ header a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+  }
+
+  /*-----------Menu-----------*/
+
+  nav {
+    text-align: center;
+    padding-bottom: 2vh;
+ }
+
+ nav a {
+    font-size: 20px;
+    color: white;
+    margin-right: 40px;
+    margin-right: 8vh;
+    transition: 0.5s;
+    text-decoration: none;
+    
+ }
+
+ nav a:hover {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+ }
+
+ 
