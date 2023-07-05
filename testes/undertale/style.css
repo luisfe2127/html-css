@@ -209,11 +209,31 @@
 
  li {
   margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+  letter-spacing: 1.3px;
+  
+ }
+
+ #combate {
+  background-color: transparent;
+ }
+
+ #combate li {
+  margin-bottom: 50px;
+  margin-right: 140px;
+  font-size: 20px;
+ }
+
+ .battle {
+  margin-left: 230px;
  }
 
  #musica {
   margin-bottom: 70px;
   display: inline-block;
  }
+
+
  
  
