@@ -63,4 +63,8 @@ header h1 {
     border-radius: 10px;
  }
 
- 
+ /*-----------Topicos-----------*/
+
+ section.topico {
+   background-color: grey;
+ }
