@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" >
+
+        <p>
+            <label for="inome"></label>
+            Nome <input type="text" name="nome" id="inome" required>
+        </p>
+
+        <p>
+            <label for="isenha"></label>
+            Senha <input type="password" name="senha" id="isenha" minlength="5" maxlength="8" required>
+        </p>
+
+        <p>
+            <label for="idata"></label>
+            Data de Nascimento <input type="date" name="data" id="idata" required>
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
