@@ -51,6 +51,51 @@
             <input type="radio" name="genero" id="imas"><label for="imas">Masculino</label>
         </p>
     </fieldset>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+        
+                <legend>Somas</legend>
+                <p>
+                    <label for="in1">Primeiro Numero </label>
+                    <input type="number" name="n1" id="in1" required min="0" max="50" oninput="isoma.innerHTML = Number (in1.value) + Number (in2.value)">
+        
+                </p>
+                <p>
+                    <label for="in2">Segundo Numero </label>
+                    <input type="number" name="n2" id="in2" required min="0" max="50" oninput="isoma.innerHTML = Number (in1.value) + Number (in2.value)">
+                </p>
+                <p>
+                    <label for="isoma">Soma: </label>
+                    <output name="soma" id="isoma">0</output>
+                </p>
+
+                <p>
+                    <label for="inota">Nota: </label>
+                    <input type="range" name="nota" id="inota" oninput="ival.innerHTML = Number (inota.value)" min="0" max="10" value="5">
+                    <output id="ival">5</output>
+
+                </p>
+
+                <p>
+                    <label for="iano">Informe seu ano de nascimento: </label>
+                    <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()">
+                </p>     
+
+                <p>
+                    <label for="iidade">Sua idade é:</label>
+                    <output id="iidade">0</output>
+                </p>
+
+                <script>
+                    function calcIdade () {
+                        let atual = new Date().getFullYear()
+                        iidade.innerHTML = Number (atual) - Number (iano.value)
+                    }
+                </script>
+
+        </fieldset>
+    </form>
     
 </body>
 </html>
